@@ -9,8 +9,9 @@ const Navbar = () => {
         <li>Home</li>
         <li>About</li>
         <li>Recipes</li>
-        <li>Search </li>
-        <span class="material-symbols-outlined">search</span>
+        <li className='search-item'>
+          <span className="material-symbols-outlined">search</span>
+        </li>
       </ul>
     </nav>
   )
